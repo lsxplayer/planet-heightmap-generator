@@ -1,0 +1,67 @@
+{
+    "image": {
+        "size": {
+            "width": 1000,
+            "height": 500
+        },
+        "global_scale": 1.0,
+        "save_path": "../maps/map1.png"
+    },
+    "colors": {
+        "use": true,
+        "layers": [
+            {
+                "color": [0, 0, 255],
+                "height": 0.50,
+                "use": true
+            },
+            {
+                "color": [6, 163, 191],
+                "height": 0.55,
+                "use": true
+            },
+            {
+                "color": [224, 198, 68],
+                "height": 0.555,
+                "use": true
+            },
+            {
+                "color": [176, 246, 165],
+                "height": 0.65,
+                "use": true
+            },
+            {
+                "color": [120, 69, 15],
+                "height": 0.90,
+                "use": true
+            },
+            {
+                "color": [255, 255, 255],
+                "height": 1.0,
+                "use": true
+            }
+        ]
+    },
+    "layers": [
+        {
+            "seed": 6,
+            "weight": 1,
+            "scale": 150.0,
+            "octaves": 3,
+            "persistence": 0.2,
+            "lacunarity": 2.5,
+            "invert": true,
+            "use": true
+        },
+        {
+            "seed": 2,
+            "weight": 1,
+            "scale": 150.0,
+            "octaves": 3,
+            "persistence": 0.2,
+            "lacunarity": 2.5,
+            "invert": true,
+            "use": false
+        }
+    ]
+}
